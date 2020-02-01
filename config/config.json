@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "root",
+    "password": "cooper",
+    "database": "flappy_bird",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 1
+  },
+  "test": {
+    "username": "root",
+    "password": "cooper",
+    "database": "flappy_bird",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 1
+  },
+  "production": {
+    "dialect": "mysql",
+    "use_env_variable": "JAWSDB_URL"
+  }
+}

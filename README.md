@@ -1,1 +1,1 @@
-# Flappy-Pac
+# Flappy-Bird
