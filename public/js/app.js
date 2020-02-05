@@ -30,8 +30,8 @@ const state = {
     over : 2
 }
 //When you press the spacekey the game will begin
-window.onkeydown = function(event){
-    if(event.keyCode == 32){
+window.onclick = function(event){
+    {
     switch(state.current){
         case state.getReady:
             state.current = state.game;
@@ -44,7 +44,7 @@ window.onkeydown = function(event){
             break;
         case state.over:        
             // CHECK IF WE CLICK ON THE START BUTTON
-            if(this.onkeydown){
+            if(this.onclick){
                 pipes.reset();
                 bird.speedReset();
                 score.reset();
